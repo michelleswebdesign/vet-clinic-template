@@ -145,6 +145,8 @@ body {
     max-width: 650px;
 
     color: white;
+
+     margin-left: -40px;
 }
 
 .hero-tagline {
