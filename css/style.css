@@ -112,3 +112,115 @@ body {
     }
 
 }
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    position: relative;
+    min-height: 800px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 650px;
+
+    color: white;
+}
+
+.hero-tagline {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin-bottom: 1rem;
+
+    color: #d9e7df;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+
+    font-size: 4.5rem;
+    line-height: 1.1;
+
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-bottom: 2rem;
+
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-secondary {
+    text-decoration: none;
+
+    color: white;
+
+    border: 2px solid white;
+
+    padding: 14px 24px;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    transition: .3s ease;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: #1f2937;
+}
+
+/* =========================
+   HERO MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 650px;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+}
