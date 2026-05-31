@@ -557,7 +557,7 @@ body {
 ========================= */
 
 .site-footer {
-    background: #1f2937;
+    background: #2f7a7a;
     color: white;
     padding-top: 5rem;
 }
@@ -594,10 +594,10 @@ body {
 
 .footer-bottom {
     text-align: center;
-    border-top: 1px solid rgba(255,255,255,.1);
+    border-top: 1px solid rgba(255,255,255,.15);
     margin-top: 3rem;
     padding: 2rem 0;
-    color: #94a3b8;
+    color: rgba(255,255,255,.75);
 }
 
 @media (max-width: 900px) {
