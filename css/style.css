@@ -146,7 +146,6 @@ body {
     width: 100%;
     margin-top: 1rem;
 }
-}
    
     .logo {
         font-size: 2rem;
@@ -214,9 +213,8 @@ body {
     .footer-grid,
     .about-grid {
         grid-template-columns: 1fr;
-    }
-
 }
+
 
 /* =========================
    HERO
