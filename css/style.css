@@ -98,17 +98,34 @@ body {
 
 @media (max-width: 768px) {
 
-    .navbar {
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-        padding: 1rem 0;
-        height: auto;
+    .hero {
+        min-height: auto;
+        padding: 6rem 0;
     }
 
-    .nav-links {
-        flex-wrap: wrap;
-        justify-content: center;
+    .hero-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        line-height: 1.15;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
     }
 
 }
