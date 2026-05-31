@@ -451,3 +451,52 @@ body {
     }
 
 }
+
+/* =========================
+   TESTIMONIALS
+========================= */
+
+.testimonials {
+    padding: 7rem 0;
+    background: white;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: #f8faf9;
+    padding: 2.5rem;
+    border-radius: 20px;
+}
+
+.stars {
+    color: #d4a017;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card p {
+    line-height: 1.9;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-card h4 {
+    color: #1f2937;
+}
+
+/* =========================
+   TESTIMONIALS MOBILE
+========================= */
+
+@media (max-width: 900px) {
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
