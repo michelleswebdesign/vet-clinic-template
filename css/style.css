@@ -266,3 +266,87 @@ body {
     }
 
 }
+
+/* =========================
+   SERVICES
+========================= */
+
+.services {
+    padding: 6rem 0;
+    background: #f8faf9;
+}
+
+.section-tag {
+    text-align: center;
+    color: #2f7a7a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    color: #1f2937;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.service-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    transition: .3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+}
+
+.service-card p {
+    color: #64748b;
+    line-height: 1.7;
+}
+
+/* =========================
+   SERVICES MOBILE
+========================= */
+
+@media (max-width: 900px) {
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .section-title {
+        font-size: 2.2rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
