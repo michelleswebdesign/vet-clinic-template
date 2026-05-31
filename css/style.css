@@ -119,26 +119,24 @@ body {
 @media (max-width: 768px) {
 
 .navbar {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        height: auto;
-        padding: 1.5rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 1rem 0;
 }
 
    .menu-toggle {
        display: block;
 }
 
-.navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .nav-links {
     display: none;
 }
+
+.navbar .btn-primary {
+    display: none;
+}   
 
 .nav-links.active {
     display: flex;
@@ -152,24 +150,17 @@ body {
         text-align: center;
     }
 
-    .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-}
-
     .nav-links a {
         font-size: 1rem;
 }
 
-    .btn-primary {
+   .btn-primary {
         width: 100%;
         max-width: 320px;
         text-align: center;
 }
 
-    .hero {
+   .hero {
     min-height: auto;
     padding: 4rem 0;
     background-position: center center;
